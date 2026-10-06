@@ -1,0 +1,16 @@
+DirectoryIndex index.html
+Options -Indexes
+
+# Keep repository metadata and development files out of the public website.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule (^|/)\.(?!well-known/) - [F,L]
+</IfModule>
+<FilesMatch "^(package\.json|pnpm-lock\.yaml|vite\.config\.js|README\.md|REFERENCIAS\.md)$">
+  Require all denied
+</FilesMatch>
+<IfModule mod_mime.c>
+  AddType text/javascript .js
+  AddType application/json .json
+</IfModule>
+
