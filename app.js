@@ -1,8 +1,11 @@
+import { initPremium } from './premium.js';
 import { whatsappUrl } from './config.js';
 const $ = selector => document.querySelector(selector);
 const money = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 0 });
 const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const waIcon = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20.5 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20l1.2-4.7a8.5 8.5 0 1 1 16.3-3.8Z"/><path d="M8 7.5c-2 3.7 4.8 10 7.8 6.7l-2.3-1.6-1.1 1c-1.6-.7-2.7-1.8-3.3-3.3l.9-1.2L8.6 7Z"/></svg>';
+let visibleLimit = 4;
+const mobileCatalog = matchMedia('(max-width: 760px)');
 let vehicles = [], category = '', lastTrigger = null, stockDate = '';
 const displayDate = value => /^\d{4}-\d{2}-\d{2}$/.test(value || '') ? value.split('-').reverse().join('/') : 'data não informada';
 const isReduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -19,7 +22,9 @@ function render(){
   const filtered=vehicles.filter(v=>(!query||normalize(`${v.brand} ${v.model} ${v.version}`).includes(query))&&(!brand||v.brand===brand)&&v.price<=limit&&(!category||v.category===category||v.fuel===category));
   const sorters={'price-asc':(a,b)=>a.price-b.price,'price-desc':(a,b)=>b.price-a.price,year:(a,b)=>b.year-a.year,km:(a,b)=>a.km-b.km};
   if(sorters[$('#sort').value]) filtered.sort(sorters[$('#sort').value]);
-  $('#vehicles').innerHTML=filtered.map(card).join('');$('#empty').hidden=filtered.length>0;
+  const shown=mobileCatalog.matches?filtered.slice(0,visibleLimit):filtered;
+  $('#vehicles').innerHTML=shown.map(card).join('');
+  $('#more-vehicles').hidden=!mobileCatalog.matches||shown.length>=filtered.length;$('#empty').hidden=filtered.length>0;
   $('#result-count').textContent=`${filtered.length} ${filtered.length===1?'veículo encontrado':'veículos encontrados'} nesta seleção`;
   reveal();
 }
@@ -30,17 +35,19 @@ async function load(){
     const data=await response.json();
     if(!Array.isArray(data.vehicles)||!data.vehicles.every(v=>typeof v.id==='string'&&typeof v.brand==='string'&&typeof v.model==='string'&&typeof v.version==='string'&&Number.isFinite(v.price)&&Number.isFinite(v.year)&&Number.isFinite(v.km)&&Array.isArray(v.features)))throw new Error('Catálogo inválido');
     vehicles=data.vehicles;
+    initPremium(vehicles);
     stockDate=displayDate(data.updatedAt);
     $('#stock-date').textContent=`Seleção consultada em ${stockDate}. Confirme valores e disponibilidade com a loja.`;
     $('#brand').innerHTML='<option value="">Todas as marcas</option>'+[...new Set(vehicles.map(v=>v.brand))].sort().map(b=>`<option>${escape(b)}</option>`).join('');render();
   }catch{ $('#vehicles').innerHTML='';$('#result-count').textContent='Estoque temporariamente indisponível';$('#load-error').hidden=false;$('#empty').hidden=true; }
 }
-function reset(){category='';$('#filters').reset();$('#sort').value='featured';document.querySelectorAll('[data-category]').forEach(b=>{b.classList.toggle('active',b.dataset.category==='');b.setAttribute('aria-pressed',String(b.dataset.category===''));});render();}
+function reset(){visibleLimit=4;category='';$('#filters').reset();$('#sort').value='featured';document.querySelectorAll('[data-category]').forEach(b=>{b.classList.toggle('active',b.dataset.category==='');b.setAttribute('aria-pressed',String(b.dataset.category===''));});render();}
 $('#filters').addEventListener('submit',e=>{e.preventDefault();render();});
-$('#filters').addEventListener('input',render);$('#filters').addEventListener('change',render);
+const filterRender=()=>{visibleLimit=4;render();};
+$('#filters').addEventListener('input',filterRender);$('#filters').addEventListener('change',filterRender);
 $('#filters').addEventListener('reset',()=>{setTimeout(()=>{category='';$('#sort').value='featured';document.querySelectorAll('[data-category]').forEach(b=>{b.classList.toggle('active',b.dataset.category==='');b.setAttribute('aria-pressed',String(b.dataset.category===''));});render();},0);});
 $('#sort').addEventListener('change',render);$('#clear').addEventListener('click',reset);$('#retry').addEventListener('click',load);
-document.querySelectorAll('[data-category]').forEach(button=>button.addEventListener('click',()=>{category=button.dataset.category;document.querySelectorAll('[data-category]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});render();}));
+document.querySelectorAll('[data-category]').forEach(button=>button.addEventListener('click',()=>{visibleLimit=4;category=button.dataset.category;document.querySelectorAll('[data-category]').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});render();}));
 document.querySelectorAll('[data-whatsapp]').forEach(a=>a.href=whatsappUrl());
 function openDialog(dialog,trigger){lastTrigger=trigger;dialog.showModal();document.body.style.overflow='hidden';}
 document.querySelectorAll('dialog').forEach(dialog=>{dialog.querySelector('[data-close]').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});dialog.addEventListener('close',()=>{document.body.style.overflow='';lastTrigger?.focus();});});
@@ -53,3 +60,6 @@ const scroll=()=>$('#header').classList.toggle('scrolled',window.scrollY>35);win
 $('#year').textContent=new Date().getFullYear();
 setTimeout(()=>$('#splash')?.remove(),1800);reveal();load();
 
+
+$('#more-vehicles').addEventListener('click',()=>{const start=visibleLimit;visibleLimit+=4;render();$('#vehicles').children[start]?.querySelector('button')?.focus();});
+mobileCatalog.addEventListener('change',render);
