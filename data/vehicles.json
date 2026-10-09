@@ -1,13 +1,226 @@
 {
-  "updatedAt": "2026-10-06",
+  "updatedAt": "2026-10-09",
   "source": "https://www.olx.com.br/perfil/ponto-auto-veiculos-55b290fc",
   "vehicles": [
-    { "id": "bmw-x5", "brand": "BMW", "model": "X5", "version": "xDrive 50e 3.0 M Sport", "year": 2024, "km": 30000, "price": 459800, "category": "SUV", "fuel": "Híbrido", "transmission": "Automático", "features": ["M Sport", "Híbrido plug-in", "Tração integral"], "image": "assets/bmw.jpg", "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/bmw-x5-xdrive-50e-3-0-m-sport-aut-hibrido-2024-1515587104" },
-    { "id": "equinox", "brand": "Chevrolet", "model": "Equinox", "version": "Activ 1.5 Turbo • 177 cv", "year": 2026, "km": 5600, "price": 219800, "category": "SUV", "fuel": "Gasolina", "transmission": "Automático", "features": ["Versão Activ", "Motor turbo", "5.600 km"], "image": "assets/equinox.jpg", "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/chevrolet-equinox-activ-1-5-turbo-177cv-aut-2026-1502993860" },
-    { "id": "rampage", "brand": "RAM", "model": "Rampage", "version": "Rebel Hurricane 2.0 Turbo 4×4", "year": 2024, "km": 22000, "price": 169800, "category": "Picape", "fuel": "Gasolina", "transmission": "Automático", "features": ["Tração 4×4", "Motor turbo", "Cabine dupla"], "image": "assets/rampage.jpg", "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/ram-rampage-rebel-hurr-4-2-0-tb-cd-4x4-aut-2024-1526959158" },
-    { "id": "frontier", "brand": "Nissan", "model": "Frontier", "version": "Attack 2.3 Biturbo Diesel 4×4", "year": 2025, "km": 9000, "price": 199800, "category": "Picape", "fuel": "Diesel", "transmission": "Automático", "features": ["Tração 4×4", "Biturbo diesel", "Cabine dupla"], "image": "assets/frontier.jpg", "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/nissan-frontier-attac-cd-4x4-2-3-bi-tb-die-aut-2025-1483714392" },
-    { "id": "hilux", "brand": "Toyota", "model": "Hilux", "version": "SRX Plus 2.8 Turbo Diesel 4×4", "year": 2024, "km": 40000, "price": 275800, "category": "Picape", "fuel": "Diesel", "transmission": "Automático", "features": ["SRX Plus", "Tração 4×4", "Cabine dupla"], "image": "assets/hilux.jpg", "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/toyota-hilux-cd-srx-plus-4x4-2-8-tdi-die-aut-2024-1499985890" },
-    { "id": "compass", "brand": "Jeep", "model": "Compass", "version": "80 Anos TD350 2.0 Diesel 4×4", "year": 2022, "km": 47000, "price": 124800, "category": "SUV", "fuel": "Diesel", "transmission": "Automático", "features": ["Edição 80 Anos", "Tração 4×4", "Turbo diesel"], "image": "assets/compass.jpg", "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/jeep-compass-td-350-80-anos-2-0-4x4-die-aut-2022-1509123909" }
+    {
+      "id": "bmw-x5",
+      "brand": "BMW",
+      "model": "X5",
+      "version": "xDrive 50e 3.0 M Sport",
+      "year": 2024,
+      "km": 30000,
+      "price": 459800,
+      "category": "SUV",
+      "fuel": "Híbrido",
+      "transmission": "Automático",
+      "features": [
+        "M Sport",
+        "Híbrido plug-in",
+        "Tração integral"
+      ],
+      "image": "assets/bmw.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/bmw-x5-xdrive-50e-3-0-m-sport-aut-hibrido-2024-1515587104",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "panamera",
+      "brand": "Porsche",
+      "model": "Panamera",
+      "version": "4 E-Hybrid 2.9 • 462 cv",
+      "year": 2021,
+      "km": 15000,
+      "price": 529800,
+      "category": "Sedã",
+      "fuel": "Híbrido",
+      "features": [
+        "E-Hybrid",
+        "462 cv",
+        "15.000 km"
+      ],
+      "transmission": "Automático",
+      "image": "assets/panamera.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/porsche-panamera-4-e-hybrid-2-9-462cv-2021-1532444806",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "range-rover",
+      "brand": "Land Rover",
+      "model": "Range Rover Sport",
+      "version": "Autobiography 3.0 P550e",
+      "year": 2025,
+      "km": 24000,
+      "price": 950800,
+      "category": "SUV",
+      "fuel": "Híbrido",
+      "features": [
+        "Autobiography",
+        "P550e",
+        "Modelo 2025"
+      ],
+      "transmission": "Automático",
+      "image": "assets/range-rover.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/land-rover-range-r-sport-autobio-3-0-p550e-hib-2025-1526421429",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "commander",
+      "brand": "Jeep",
+      "model": "Commander",
+      "version": "Longitude T270 1.3 Turbo Flex",
+      "year": 2027,
+      "km": 1300,
+      "price": 179800,
+      "category": "SUV",
+      "fuel": "Flex",
+      "features": [
+        "Longitude",
+        "Motor turbo",
+        "1.300 km"
+      ],
+      "transmission": "Automático",
+      "image": "assets/commander.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/jeep-commander-longitude-t270-1-3-tb-flex-aut-2027-1526418708",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "corolla-cross",
+      "brand": "Toyota",
+      "model": "Corolla Cross",
+      "version": "XRX 2.0 16V Flex",
+      "year": 2025,
+      "km": 25000,
+      "price": 175800,
+      "category": "SUV",
+      "fuel": "Flex",
+      "features": [
+        "Versão XRX",
+        "Motor 2.0",
+        "Modelo 2025"
+      ],
+      "transmission": "Automático",
+      "image": "assets/corolla-cross.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/toyota-corolla-cross-xrx-2-0-16v-flex-aut-2025-1522428555",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "honda-zrv",
+      "brand": "Honda",
+      "model": "ZR-V",
+      "version": "Touring 2.0 16V",
+      "year": 2024,
+      "km": 44000,
+      "price": 135800,
+      "category": "SUV",
+      "fuel": "Gasolina",
+      "features": [
+        "Versão Touring",
+        "Motor 2.0",
+        "Automático"
+      ],
+      "transmission": "Automático",
+      "image": "assets/honda-zrv.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/honda-zr-v-touring-2-0-16v-5p-aut-2024-1522418863",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "rampage-laramie",
+      "brand": "RAM",
+      "model": "Rampage",
+      "version": "Laramie 2.2 Turbo Diesel 4×4",
+      "year": 2026,
+      "km": 7000,
+      "price": 219800,
+      "category": "Picape",
+      "fuel": "Diesel",
+      "features": [
+        "Versão Laramie",
+        "Tração 4×4",
+        "7.000 km"
+      ],
+      "transmission": "Automático",
+      "image": "assets/rampage-laramie.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/ram-rampage-laramie-2-2-tb-cd-4x4-die-aut-2026-1527004520",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "rampage",
+      "brand": "RAM",
+      "model": "Rampage",
+      "version": "Rebel Hurricane 2.0 Turbo 4×4",
+      "year": 2024,
+      "km": 22000,
+      "price": 169800,
+      "category": "Picape",
+      "fuel": "Gasolina",
+      "transmission": "Automático",
+      "features": [
+        "Tração 4×4",
+        "Motor turbo",
+        "Cabine dupla"
+      ],
+      "image": "assets/rampage.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/ram-rampage-rebel-hurr-4-2-0-tb-cd-4x4-aut-2024-1526959158",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "frontier",
+      "brand": "Nissan",
+      "model": "Frontier",
+      "version": "Attack 2.3 Biturbo Diesel 4×4",
+      "year": 2025,
+      "km": 9000,
+      "price": 199800,
+      "category": "Picape",
+      "fuel": "Diesel",
+      "transmission": "Automático",
+      "features": [
+        "Tração 4×4",
+        "Biturbo diesel",
+        "Cabine dupla"
+      ],
+      "image": "assets/frontier.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/nissan-frontier-attac-cd-4x4-2-3-bi-tb-die-aut-2025-1483714392",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "hilux",
+      "brand": "Toyota",
+      "model": "Hilux",
+      "version": "SRX Plus 2.8 Turbo Diesel 4×4",
+      "year": 2024,
+      "km": 40000,
+      "price": 275800,
+      "category": "Picape",
+      "fuel": "Diesel",
+      "transmission": "Automático",
+      "features": [
+        "SRX Plus",
+        "Tração 4×4",
+        "Cabine dupla"
+      ],
+      "image": "assets/hilux.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/toyota-hilux-cd-srx-plus-4x4-2-8-tdi-die-aut-2024-1499985890",
+      "verifiedAt": "2026-10-09"
+    },
+    {
+      "id": "hilux-srx-2021",
+      "brand": "Toyota",
+      "model": "Hilux",
+      "version": "SRX 2.8 Turbo Diesel 4×4",
+      "year": 2021,
+      "km": 110000,
+      "price": 207800,
+      "category": "Picape",
+      "fuel": "Diesel",
+      "features": [
+        "Versão SRX",
+        "Tração 4×4",
+        "Cabine dupla"
+      ],
+      "transmission": "Automático",
+      "image": "assets/hilux-srx-2021.jpg",
+      "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/toyota-hilux-cd-srx-4x4-2-8-tdi-16v-diesel-aut-2021-1540177336",
+      "verifiedAt": "2026-10-09"
+    }
   ]
 }
-

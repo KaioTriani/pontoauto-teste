@@ -61,3 +61,7 @@ Documentação oficial:
 - https://www.hostinger.com/support/1583302-how-to-deploy-a-git-repository-in-hostinger/
 - https://www.hostinger.com/support/host-your-lovable-bolt-or-any-other-vibe-coded-website-on-hostinger/
 
+
+## Atualização visual — 09/10/2026
+Abertura com fotografia em destaque, assinatura transferida ao catálogo, tipografia editorial e 11 veículos da seleção anunciada pela loja. Consulte data/vehicles.json para atualizar os anúncios.
+
