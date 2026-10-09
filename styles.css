@@ -11,7 +11,7 @@ dialog{border:0;padding:0;max-width:1100px;width:92%;max-height:90svh;background
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-delay:0s!important;transition:none!important}.reveal.ready{opacity:1;transform:none}#splash{display:none}.vehicle-card:hover,.button:hover,.floating-whatsapp:hover{transform:none}}
 /* Preserve the complete showroom photograph on every viewport. */
 .hero{height:auto;min-height:0;max-height:none;padding-top:100px;overflow:visible}
-.hero-image{display:block;width:100%;height:auto;max-height:calc(100svh - 200px);object-fit:contain;object-position:center;filter:none}
+.hero-image{display:block;width:100%;height:auto;max-height:none;object-fit:contain;object-position:center;filter:none}
 .hero:after{display:none}
 .hero-entry{position:relative;left:auto;bottom:auto;transform:none;display:flex;justify-content:center;padding:24px}
 header{background:#101c18}
