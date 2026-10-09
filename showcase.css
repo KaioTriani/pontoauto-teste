@@ -6,3 +6,29 @@
 @media(max-width:1100px){.showcase-stage{grid-template-columns:1fr 1.6fr}.showcase-specs{grid-column:2;display:flex;gap:24px;justify-content:center;border:0;padding:0}.showcase-specs div{padding:9px 0}.showcase-caption{margin-top:0}.showcase h1{font-size:40px}.showcase-footer{margin-top:22px}header nav{gap:20px}}
 @media(max-width:760px){.showcase{padding:105px 0 28px}.showcase-stage{display:flex;flex-direction:column;min-height:0;gap:10px}.showcase-copy{display:contents}.showcase-copy>.eyebrow,.showcase-description,.showcase-actions .text-link,.showcase-specs,#hero-version{display:none}.showcase h1{order:0;font-size:30px;text-align:center;margin:0;line-height:1.18}.showcase h1 br{display:none}.showcase h1 em{display:block}.showcase-vehicle{order:1;width:100%}#hero-photo{height:230px}.showcase-caption{margin-top:-13px}.showcase-caption h2{font-size:15px;margin:0}.showcase-actions{order:2;margin-top:14px;display:block;width:100%}.showcase-actions .button{width:100%;font-size:13px;min-height:48px}.showcase-footer{margin-top:28px}.showcase-footer-heading h2{font-size:11px}.showcase-arrows button{width:34px;height:32px}.hero-thumbnails{gap:10px}.hero-thumb{flex:0 0 124px;min-height:95px;padding:5px 8px 10px}.hero-thumb img{height:65px}.hero-thumb span{font-size:9px}.header-inner{gap:12px}header .instagram-link{margin-left:auto;min-width:38px}header .menu{margin-left:0}.showcase~.trust-strip{display:none}#details{width:100%;max-height:100svh;height:100svh;margin:0;border:0;border-radius:0}#detail-content{display:block}.vehicle-gallery{position:relative;padding:62px 14px 17px}.gallery-photo{height:280px}.gallery-thumbnail{flex-basis:74px}.gallery-thumbnail img{width:66px;height:50px}.vehicle-sheet{padding:30px 24px 40px}.vehicle-sheet h2{font-size:28px}.modal-price{font-size:28px}.gallery-arrow{width:40px;height:40px}.modal-contact{min-height:52px}.technical-specs{font-size:12px}}
 @media(prefers-reduced-motion:reduce){#details[open]{animation:none}.hero-thumb img{transition:none}}
+/* Mobile refinement only: retain all desktop rules above unchanged. */
+@media(max-width:760px){
+  .showcase{padding:102px 0 32px;background:radial-gradient(ellipse at 65% 28%,#42674d55,transparent 58%),linear-gradient(160deg,#111e19,#0b1811 72%,#16261b)}
+  .showcase-stage{gap:0}
+  .showcase-copy>.eyebrow{display:block;order:-1;font-size:9px;letter-spacing:.18em;color:#b0c3b1;margin:0 0 12px}
+  .showcase h1{font-size:29px;font-weight:500;line-height:1.18}
+  #hero-photo{height:clamp(200px,58vw,270px)}
+  .showcase-caption{margin:-4px 0 20px;text-align:left;padding:0 2px}
+  .showcase-caption h2{font-size:23px;line-height:1.2;font-weight:500;letter-spacing:-.035em;margin:0 0 7px}
+  #hero-version{display:block;font-size:11px;line-height:1.6;color:#adbeaf}
+  .showcase-specs{order:2;display:grid;grid-template-columns:.7fr 1fr 1.4fr;gap:10px;width:100%;margin:0;padding:16px 2px;border:0;border-top:1px solid #c3d4ba28;border-bottom:1px solid #c3d4ba28;background:linear-gradient(90deg,transparent,#c6dab308,transparent)}
+  .showcase-specs div{padding:0;min-width:0}
+  .showcase-specs dt{font-size:9px;letter-spacing:.13em;margin-bottom:7px;color:#96ad9c}
+  .showcase-specs dd{font-size:14px;font-weight:500;line-height:1.35;margin:0;color:#edf2eb}
+  .showcase-specs div:last-child{text-align:right}
+  .showcase-specs #hero-price{font-size:19px;color:#d1e1c6;letter-spacing:-.035em}
+  .showcase-actions{order:3;margin-top:20px;text-align:center}
+  .showcase-actions .button{font-size:13px;min-height:48px}
+  .showcase-actions .text-link{display:inline-flex;font-size:11px;color:#bdcdbd;margin-top:9px;padding:7px 0;border-color:#b9cdb23d}
+  .showcase-footer{margin-top:27px}
+  .showcase-footer-heading h2{font-size:12px;color:#dbe6d8}
+  .hero-thumb{flex-basis:143px;padding:7px 9px 12px;border-radius:3px;background:linear-gradient(150deg,#b9ceb30a,#ffffff02)}
+  .hero-thumb span{font-size:10px;white-space:normal;line-height:1.4;min-height:28px}
+  .hero-thumb[aria-pressed=true]{border-color:#adc39f;background:linear-gradient(145deg,#b4caa11c,#b4caa108)}
+}
+@media(max-width:359px){.showcase h1{font-size:26px}.showcase-caption h2{font-size:21px}.showcase-specs{gap:7px;grid-template-columns:.65fr 1fr 1.35fr}.showcase-specs dd{font-size:12px}.showcase-specs #hero-price{font-size:16px}}
