@@ -1,4 +1,5 @@
-import { initPremium } from './premium.js';
+import { initHero } from './hero-slider.js';
+import { renderVehicleModal } from './vehicle-modal.js';
 import { whatsappUrl } from './config.js';
 const $ = selector => document.querySelector(selector);
 const money = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 0 });
@@ -35,7 +36,7 @@ async function load(){
     const data=await response.json();
     if(!Array.isArray(data.vehicles)||!data.vehicles.every(v=>typeof v.id==='string'&&typeof v.brand==='string'&&typeof v.model==='string'&&typeof v.version==='string'&&Number.isFinite(v.price)&&Number.isFinite(v.year)&&Number.isFinite(v.km)&&Array.isArray(v.features)))throw new Error('Catálogo inválido');
     vehicles=data.vehicles;
-    initPremium(vehicles);
+    initHero(vehicles);
     stockDate=displayDate(data.updatedAt);
     $('#stock-date').textContent=`Seleção consultada em ${stockDate}. Confirme valores e disponibilidade com a loja.`;
     $('#brand').innerHTML='<option value="">Todas as marcas</option>'+[...new Set(vehicles.map(v=>v.brand))].sort().map(b=>`<option>${escape(b)}</option>`).join('');render();
@@ -51,7 +52,9 @@ document.querySelectorAll('[data-category]').forEach(button=>button.addEventList
 document.querySelectorAll('[data-whatsapp]').forEach(a=>a.href=whatsappUrl());
 function openDialog(dialog,trigger){lastTrigger=trigger;dialog.showModal();document.body.style.overflow='hidden';}
 document.querySelectorAll('dialog').forEach(dialog=>{dialog.querySelector('[data-close]').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});dialog.addEventListener('close',()=>{document.body.style.overflow='';lastTrigger?.focus();});});
-$('#vehicles').addEventListener('click',e=>{const button=e.target.closest('[data-detail]');if(!button)return;const v=vehicles.find(v=>v.id===button.dataset.detail);if(!v)return;$('#detail-content').innerHTML=`<img class="detail-image" src="${safeImage(v.image)}" alt="${escape(v.brand+' '+v.model)}"><div class="detail-info"><p class="eyebrow">${escape(v.brand)} · ${escape(v.category)}</p><h2 id="detail-title">${escape(v.brand+' '+v.model)}</h2><p>${escape(v.version)}</p>${specs(v)}${features(v)}<p class="card-price"><small>R$</small> ${money.format(v.price)}</p>${cta(v)}<p class="detail-note">Combustível: ${escape(v.fuel)}. Dados consultados em ${escape(displayDate(v.verifiedAt || '') === 'data não informada' ? stockDate : displayDate(v.verifiedAt))}. Confirme disponibilidade, equipamentos e condições com o vendedor.</p><a class="detail-source" href="${/^https:\/\/pb\.olx\.com\.br\//.test(v.source)?escape(v.source):'#estoque'}" target="_blank" rel="noopener noreferrer">Consultar anúncio original na OLX</a></div>`;openDialog($('#details'),button);});
+function showVehicle(id,trigger){const v=vehicles.find(v=>v.id===id);if(!v)return;renderVehicleModal(v,$('#detail-content'));openDialog($('#details'),trigger);}
+$('#vehicles').addEventListener('click',e=>{if(e.target.closest('a'))return;const button=e.target.closest('article')?.querySelector('[data-detail]');if(button)showVehicle(button.dataset.detail,button);});
+$('#hero-details').addEventListener('click',e=>showVehicle(e.currentTarget.dataset.detail,e.currentTarget));
 $('#privacy-open').addEventListener('click',e=>openDialog($('#privacy'),e.currentTarget));
 function closeMenu(){ $('#navigation').classList.remove('open');$('#menu').setAttribute('aria-expanded','false');$('#menu').setAttribute('aria-label','Abrir menu'); }
 $('#menu').addEventListener('click',()=>{const open=$('#navigation').classList.toggle('open');$('#menu').setAttribute('aria-expanded',String(open));$('#menu').setAttribute('aria-label',open?'Fechar menu':'Abrir menu');});

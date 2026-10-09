@@ -20,7 +20,55 @@
       ],
       "image": "assets/bmw.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/bmw-x5-xdrive-50e-3-0-m-sport-aut-hibrido-2024-1515587104",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/bmw.jpg",
+          "alt": "BMW X5 — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/bmw-x5-xdrive-50e-3-0-m-sport-aut-hibrido-2024-1515587104"
+        },
+        {
+          "src": "assets/bmw-x5-gallery-2.jpg",
+          "alt": "BMW X5 — foto 2",
+          "source": "https://img.olx.com.br/images/41/414616309364896.jpg"
+        },
+        {
+          "src": "assets/bmw-x5-gallery-3.jpg",
+          "alt": "BMW X5 — foto 3",
+          "source": "https://img.olx.com.br/images/43/435680785231232.jpg"
+        },
+        {
+          "src": "assets/bmw-x5-gallery-4.jpg",
+          "alt": "BMW X5 — foto 4",
+          "source": "https://img.olx.com.br/images/45/450621421793179.jpg"
+        },
+        {
+          "src": "assets/bmw-x5-gallery-5.jpg",
+          "alt": "BMW X5 — foto 5",
+          "source": "https://img.olx.com.br/images/47/470677782429044.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "BMW",
+        "Modelo": "X5",
+        "Versão": "xDrive 50e 3.0 M Sport",
+        "Ano": "2024",
+        "Quilometragem": "30.000 km",
+        "Carroceria": "SUV",
+        "Combustível": "Híbrido",
+        "Câmbio": "Automático",
+        "Cor": "Cinza",
+        "Motorização": "3.0"
+      },
+      "equipment": [
+        "PPF Full",
+        "Rodas aro 21",
+        "Suspensão pneumática",
+        "489 cv",
+        "Revisões na BMW"
+      ],
+      "featured": true,
+      "heroImage": "assets/bmw-x5-cutout.webp"
     },
     {
       "id": "panamera",
@@ -40,7 +88,54 @@
       "transmission": "Automático",
       "image": "assets/panamera.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/porsche-panamera-4-e-hybrid-2-9-462cv-2021-1532444806",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/panamera.jpg",
+          "alt": "Porsche Panamera — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/porsche-panamera-4-e-hybrid-2-9-462cv-2021-1532444806"
+        },
+        {
+          "src": "assets/panamera-gallery-2.jpg",
+          "alt": "Porsche Panamera — foto 2",
+          "source": "https://img.olx.com.br/images/32/325646561464444.jpg"
+        },
+        {
+          "src": "assets/panamera-gallery-3.jpg",
+          "alt": "Porsche Panamera — foto 3",
+          "source": "https://img.olx.com.br/images/35/350674207553786.jpg"
+        },
+        {
+          "src": "assets/panamera-gallery-4.jpg",
+          "alt": "Porsche Panamera — foto 4",
+          "source": "https://img.olx.com.br/images/38/385615327142595.jpg"
+        },
+        {
+          "src": "assets/panamera-gallery-5.jpg",
+          "alt": "Porsche Panamera — foto 5",
+          "source": "https://img.olx.com.br/images/41/418637564190051.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "Porsche",
+        "Modelo": "Panamera",
+        "Versão": "4 E-Hybrid 2.9 • 462 cv",
+        "Ano": "2021",
+        "Quilometragem": "15.000 km",
+        "Carroceria": "Sedã",
+        "Combustível": "Híbrido",
+        "Câmbio": "Automático",
+        "Cor": "Branco",
+        "Motorização": "2.9"
+      },
+      "equipment": [
+        "Híbrido plug-in",
+        "Suspensão pneumática",
+        "462 cv",
+        "Revisões na Porsche"
+      ],
+      "featured": true,
+      "heroImage": "assets/panamera-cutout.webp"
     },
     {
       "id": "range-rover",
@@ -60,7 +155,54 @@
       "transmission": "Automático",
       "image": "assets/range-rover.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/land-rover-range-r-sport-autobio-3-0-p550e-hib-2025-1526421429",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/range-rover.jpg",
+          "alt": "Land Rover Range Rover Sport — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/land-rover-range-r-sport-autobio-3-0-p550e-hib-2025-1526421429"
+        },
+        {
+          "src": "assets/range-rover-gallery-2.jpg",
+          "alt": "Land Rover Range Rover Sport — foto 2",
+          "source": "https://img.olx.com.br/images/84/849682191141263.jpg"
+        },
+        {
+          "src": "assets/range-rover-gallery-3.jpg",
+          "alt": "Land Rover Range Rover Sport — foto 3",
+          "source": "https://img.olx.com.br/images/89/890694914568088.jpg"
+        },
+        {
+          "src": "assets/range-rover-gallery-4.jpg",
+          "alt": "Land Rover Range Rover Sport — foto 4",
+          "source": "https://img.olx.com.br/images/93/931650796446209.jpg"
+        },
+        {
+          "src": "assets/range-rover-gallery-5.jpg",
+          "alt": "Land Rover Range Rover Sport — foto 5",
+          "source": "https://img.olx.com.br/images/97/975659912382357.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "Land Rover",
+        "Modelo": "Range Rover Sport",
+        "Versão": "Autobiography 3.0 P550e",
+        "Ano": "2025",
+        "Quilometragem": "24.000 km",
+        "Carroceria": "SUV",
+        "Combustível": "Híbrido",
+        "Câmbio": "Automático",
+        "Cor": "Cinza",
+        "Motorização": "3.0"
+      },
+      "equipment": [
+        "Híbrido plug-in",
+        "PPF Full",
+        "Rodas aro 23",
+        "Pacote de revisões pagas"
+      ],
+      "featured": true,
+      "heroImage": "assets/range-rover-cutout.webp"
     },
     {
       "id": "commander",
@@ -80,7 +222,52 @@
       "transmission": "Automático",
       "image": "assets/commander.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/jeep-commander-longitude-t270-1-3-tb-flex-aut-2027-1526418708",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/commander.jpg",
+          "alt": "Jeep Commander — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/jeep-commander-longitude-t270-1-3-tb-flex-aut-2027-1526418708"
+        },
+        {
+          "src": "assets/commander-gallery-2.jpg",
+          "alt": "Jeep Commander — foto 2",
+          "source": "https://img.olx.com.br/images/30/304643791782142.jpg"
+        },
+        {
+          "src": "assets/commander-gallery-3.jpg",
+          "alt": "Jeep Commander — foto 3",
+          "source": "https://img.olx.com.br/images/31/318618070444698.jpg"
+        },
+        {
+          "src": "assets/commander-gallery-4.jpg",
+          "alt": "Jeep Commander — foto 4",
+          "source": "https://img.olx.com.br/images/33/336631437144819.jpg"
+        },
+        {
+          "src": "assets/commander-gallery-5.jpg",
+          "alt": "Jeep Commander — foto 5",
+          "source": "https://img.olx.com.br/images/34/342626676204278.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "Jeep",
+        "Modelo": "Commander",
+        "Versão": "Longitude T270 1.3 Turbo Flex",
+        "Ano": "2027",
+        "Quilometragem": "1.300 km",
+        "Carroceria": "SUV",
+        "Combustível": "Flex",
+        "Câmbio": "Automático",
+        "Cor": "Branco",
+        "Motorização": "1.3 Turbo"
+      },
+      "equipment": [
+        "7 lugares",
+        "Motor turbo flex"
+      ],
+      "featured": true,
+      "heroImage": "assets/commander-cutout.webp"
     },
     {
       "id": "corolla-cross",
@@ -100,7 +287,53 @@
       "transmission": "Automático",
       "image": "assets/corolla-cross.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/toyota-corolla-cross-xrx-2-0-16v-flex-aut-2025-1522428555",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/corolla-cross.jpg",
+          "alt": "Toyota Corolla Cross — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/toyota-corolla-cross-xrx-2-0-16v-flex-aut-2025-1522428555"
+        },
+        {
+          "src": "assets/corolla-cross-gallery-2.jpg",
+          "alt": "Toyota Corolla Cross — foto 2",
+          "source": "https://img.olx.com.br/images/40/408623180883288.jpg"
+        },
+        {
+          "src": "assets/corolla-cross-gallery-3.jpg",
+          "alt": "Toyota Corolla Cross — foto 3",
+          "source": "https://img.olx.com.br/images/44/446675784268155.jpg"
+        },
+        {
+          "src": "assets/corolla-cross-gallery-4.jpg",
+          "alt": "Toyota Corolla Cross — foto 4",
+          "source": "https://img.olx.com.br/images/48/488656669350426.jpg"
+        },
+        {
+          "src": "assets/corolla-cross-gallery-5.jpg",
+          "alt": "Toyota Corolla Cross — foto 5",
+          "source": "https://img.olx.com.br/images/52/521697667539227.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "Toyota",
+        "Modelo": "Corolla Cross",
+        "Versão": "XRX 2.0 16V Flex",
+        "Ano": "2025",
+        "Quilometragem": "25.000 km",
+        "Carroceria": "SUV",
+        "Combustível": "Flex",
+        "Câmbio": "Automático",
+        "Cor": "Azul",
+        "Motorização": "2.0"
+      },
+      "equipment": [
+        "Teto solar",
+        "Direção elétrica",
+        "4 portas"
+      ],
+      "featured": true,
+      "heroImage": "assets/corolla-cross-cutout.webp"
     },
     {
       "id": "honda-zrv",
@@ -120,7 +353,52 @@
       "transmission": "Automático",
       "image": "assets/honda-zrv.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/honda-zr-v-touring-2-0-16v-5p-aut-2024-1522418863",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/honda-zrv.jpg",
+          "alt": "Honda ZR-V — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/honda-zr-v-touring-2-0-16v-5p-aut-2024-1522418863"
+        },
+        {
+          "src": "assets/honda-zrv-gallery-2.jpg",
+          "alt": "Honda ZR-V — foto 2",
+          "source": "https://img.olx.com.br/images/92/929631302059509.jpg"
+        },
+        {
+          "src": "assets/honda-zrv-gallery-3.jpg",
+          "alt": "Honda ZR-V — foto 3",
+          "source": "https://img.olx.com.br/images/93/937653306496804.jpg"
+        },
+        {
+          "src": "assets/honda-zrv-gallery-4.jpg",
+          "alt": "Honda ZR-V — foto 4",
+          "source": "https://img.olx.com.br/images/95/956652543928730.jpg"
+        },
+        {
+          "src": "assets/honda-zrv-gallery-5.jpg",
+          "alt": "Honda ZR-V — foto 5",
+          "source": "https://img.olx.com.br/images/96/967649547317337.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "Honda",
+        "Modelo": "ZR-V",
+        "Versão": "Touring 2.0 16V",
+        "Ano": "2024",
+        "Quilometragem": "44.000 km",
+        "Carroceria": "SUV",
+        "Combustível": "Gasolina",
+        "Câmbio": "Automático",
+        "Cor": "Azul",
+        "Motorização": "2.0"
+      },
+      "equipment": [
+        "Teto solar",
+        "Bancos de couro com ajuste elétrico",
+        "Pacote ADAS",
+        "Revisões na Honda"
+      ]
     },
     {
       "id": "rampage-laramie",
@@ -140,7 +418,51 @@
       "transmission": "Automático",
       "image": "assets/rampage-laramie.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/ram-rampage-laramie-2-2-tb-cd-4x4-die-aut-2026-1527004520",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/rampage-laramie.jpg",
+          "alt": "RAM Rampage — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/ram-rampage-laramie-2-2-tb-cd-4x4-die-aut-2026-1527004520"
+        },
+        {
+          "src": "assets/rampage-laramie-gallery-2.jpg",
+          "alt": "RAM Rampage — foto 2",
+          "source": "https://img.olx.com.br/images/92/925671432921910.jpg"
+        },
+        {
+          "src": "assets/rampage-laramie-gallery-3.jpg",
+          "alt": "RAM Rampage — foto 3",
+          "source": "https://img.olx.com.br/images/95/954616434220302.jpg"
+        },
+        {
+          "src": "assets/rampage-laramie-gallery-4.jpg",
+          "alt": "RAM Rampage — foto 4",
+          "source": "https://img.olx.com.br/images/97/977652915149774.jpg"
+        },
+        {
+          "src": "assets/rampage-laramie-gallery-5.jpg",
+          "alt": "RAM Rampage — foto 5",
+          "source": "https://img.olx.com.br/images/99/998694677596829.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "RAM",
+        "Modelo": "Rampage",
+        "Versão": "Laramie 2.2 Turbo Diesel 4×4",
+        "Ano": "2026",
+        "Quilometragem": "7.000 km",
+        "Carroceria": "Picape",
+        "Combustível": "Diesel",
+        "Câmbio": "Automático",
+        "Cor": "Prata",
+        "Motorização": "2.2 Turbo Diesel"
+      },
+      "equipment": [
+        "200 cv",
+        "Tração 4×4",
+        "Cabine dupla"
+      ]
     },
     {
       "id": "rampage",
@@ -160,7 +482,52 @@
       ],
       "image": "assets/rampage.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/ram-rampage-rebel-hurr-4-2-0-tb-cd-4x4-aut-2024-1526959158",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/rampage.jpg",
+          "alt": "RAM Rampage — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/ram-rampage-rebel-hurr-4-2-0-tb-cd-4x4-aut-2024-1526959158"
+        },
+        {
+          "src": "assets/rampage-gallery-2.jpg",
+          "alt": "RAM Rampage — foto 2",
+          "source": "https://img.olx.com.br/images/79/796614432353181.jpg"
+        },
+        {
+          "src": "assets/rampage-gallery-3.jpg",
+          "alt": "RAM Rampage — foto 3",
+          "source": "https://img.olx.com.br/images/84/847605318030621.jpg"
+        },
+        {
+          "src": "assets/rampage-gallery-4.jpg",
+          "alt": "RAM Rampage — foto 4",
+          "source": "https://img.olx.com.br/images/88/889697438500467.jpg"
+        },
+        {
+          "src": "assets/rampage-gallery-5.jpg",
+          "alt": "RAM Rampage — foto 5",
+          "source": "https://img.olx.com.br/images/90/909613797168624.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "RAM",
+        "Modelo": "Rampage",
+        "Versão": "Rebel Hurricane 2.0 Turbo 4×4",
+        "Ano": "2024",
+        "Quilometragem": "22.000 km",
+        "Carroceria": "Picape",
+        "Combustível": "Gasolina",
+        "Câmbio": "Automático",
+        "Cor": "Vermelho",
+        "Motorização": "2.0 Turbo"
+      },
+      "equipment": [
+        "272 cv",
+        "Revisões na RAM",
+        "Direção elétrica",
+        "Tração 4×4"
+      ]
     },
     {
       "id": "frontier",
@@ -180,7 +547,53 @@
       ],
       "image": "assets/frontier.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/nissan-frontier-attac-cd-4x4-2-3-bi-tb-die-aut-2025-1483714392",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/frontier.jpg",
+          "alt": "Nissan Frontier — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/nissan-frontier-attac-cd-4x4-2-3-bi-tb-die-aut-2025-1483714392"
+        },
+        {
+          "src": "assets/frontier-gallery-2.jpg",
+          "alt": "Nissan Frontier — foto 2",
+          "source": "https://img.olx.com.br/images/29/299635307975950.jpg"
+        },
+        {
+          "src": "assets/frontier-gallery-3.jpg",
+          "alt": "Nissan Frontier — foto 3",
+          "source": "https://img.olx.com.br/images/40/402633420696077.jpg"
+        },
+        {
+          "src": "assets/frontier-gallery-4.jpg",
+          "alt": "Nissan Frontier — foto 4",
+          "source": "https://img.olx.com.br/images/47/471698181992198.jpg"
+        },
+        {
+          "src": "assets/frontier-gallery-5.jpg",
+          "alt": "Nissan Frontier — foto 5",
+          "source": "https://img.olx.com.br/images/57/577661785192766.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "Nissan",
+        "Modelo": "Frontier",
+        "Versão": "Attack 2.3 Biturbo Diesel 4×4",
+        "Ano": "2025",
+        "Quilometragem": "9.000 km",
+        "Carroceria": "Picape",
+        "Combustível": "Diesel",
+        "Câmbio": "Automático",
+        "Cor": "Cinza",
+        "Motorização": "2.3 Biturbo Diesel",
+        "Direção": "Hidráulica",
+        "Portas": "4"
+      },
+      "equipment": [
+        "Bancos de couro",
+        "Tração 4×4",
+        "Cabine dupla"
+      ]
     },
     {
       "id": "hilux",
@@ -200,7 +613,53 @@
       ],
       "image": "assets/hilux.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/toyota-hilux-cd-srx-plus-4x4-2-8-tdi-die-aut-2024-1499985890",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/hilux.jpg",
+          "alt": "Toyota Hilux — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/toyota-hilux-cd-srx-plus-4x4-2-8-tdi-die-aut-2024-1499985890"
+        },
+        {
+          "src": "assets/hilux-gallery-2.jpg",
+          "alt": "Toyota Hilux — foto 2",
+          "source": "https://img.olx.com.br/images/35/353655769935087.jpg"
+        },
+        {
+          "src": "assets/hilux-gallery-3.jpg",
+          "alt": "Toyota Hilux — foto 3",
+          "source": "https://img.olx.com.br/images/37/376639286393249.jpg"
+        },
+        {
+          "src": "assets/hilux-gallery-4.jpg",
+          "alt": "Toyota Hilux — foto 4",
+          "source": "https://img.olx.com.br/images/39/396662288946387.jpg"
+        },
+        {
+          "src": "assets/hilux-gallery-5.jpg",
+          "alt": "Toyota Hilux — foto 5",
+          "source": "https://img.olx.com.br/images/41/416620168491843.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "Toyota",
+        "Modelo": "Hilux",
+        "Versão": "SRX Plus 2.8 Turbo Diesel 4×4",
+        "Ano": "2024",
+        "Quilometragem": "40.000 km",
+        "Carroceria": "Picape",
+        "Combustível": "Diesel",
+        "Câmbio": "Automático",
+        "Cor": "Prata",
+        "Motorização": "2.8 Turbo Diesel",
+        "Direção": "Hidráulica",
+        "Portas": "4"
+      },
+      "equipment": [
+        "Único dono",
+        "Revisões na Toyota",
+        "Tração 4×4"
+      ]
     },
     {
       "id": "hilux-srx-2021",
@@ -220,7 +679,54 @@
       "transmission": "Automático",
       "image": "assets/hilux-srx-2021.jpg",
       "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/toyota-hilux-cd-srx-4x4-2-8-tdi-16v-diesel-aut-2021-1540177336",
-      "verifiedAt": "2026-10-09"
+      "verifiedAt": "2026-10-09",
+      "photos": [
+        {
+          "src": "assets/hilux-srx-2021.jpg",
+          "alt": "Toyota Hilux — vista externa",
+          "source": "https://pb.olx.com.br/paraiba/autos-e-pecas/carros-vans-e-utilitarios/toyota-hilux-cd-srx-4x4-2-8-tdi-16v-diesel-aut-2021-1540177336"
+        },
+        {
+          "src": "assets/hilux-srx-2021-gallery-2.jpg",
+          "alt": "Toyota Hilux — foto 2",
+          "source": "https://img.olx.com.br/images/24/247624323213563.jpg"
+        },
+        {
+          "src": "assets/hilux-srx-2021-gallery-3.jpg",
+          "alt": "Toyota Hilux — foto 3",
+          "source": "https://img.olx.com.br/images/26/262659684013743.jpg"
+        },
+        {
+          "src": "assets/hilux-srx-2021-gallery-4.jpg",
+          "alt": "Toyota Hilux — foto 4",
+          "source": "https://img.olx.com.br/images/28/284641922144632.jpg"
+        },
+        {
+          "src": "assets/hilux-srx-2021-gallery-5.jpg",
+          "alt": "Toyota Hilux — foto 5",
+          "source": "https://img.olx.com.br/images/30/302668683252425.jpg"
+        }
+      ],
+      "specifications": {
+        "Marca": "Toyota",
+        "Modelo": "Hilux",
+        "Versão": "SRX 2.8 Turbo Diesel 4×4",
+        "Ano": "2021",
+        "Quilometragem": "110.000 km",
+        "Carroceria": "Picape",
+        "Combustível": "Diesel",
+        "Câmbio": "Automático",
+        "Cor": "Preto",
+        "Motorização": "2.8 Turbo Diesel",
+        "Direção": "Hidráulica",
+        "Portas": "4"
+      },
+      "equipment": [
+        "204 cv",
+        "Engate de reboque",
+        "Alerta de colisão",
+        "Alerta de saída de faixa"
+      ]
     }
   ]
 }
